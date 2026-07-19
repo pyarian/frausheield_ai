@@ -88,7 +88,7 @@ def classify():
     label = 'SCAM' if prediction == 1 else 'LEGITIMATE'
     
     score = classifier.decision_function(embedding)[0]
-    confidence = round(min(abs(score) * 40, 99), 2)
+    confidence = round(min(abs(score) * 55, 99), 2)
     
     risk_level = ('HIGH' if confidence > 85 and label == 'SCAM'
                   else 'MEDIUM' if label == 'SCAM'
