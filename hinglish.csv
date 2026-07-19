@@ -1,0 +1,175 @@
+text,label,intent
+Main CBI Cyber Cell se bol raha hoon aapke Aadhaar pe money laundering ka case register hua hai,1,False Authority
+Phone mat kaatiye investigation complete hone tak line pe rahiye,1,Isolation
+Aapka courier Mumbai airport customs mein drugs ke saath pakda gaya hai,1,Fear Induction
+Verification ke liye government escrow account mein paisa transfer kariye,1,Money Transfer
+Net banking app kholo aur screen share on karo,1,Financial Access
+Agar 30 minute ke andar response nahi diya toh warrant issue ho jayega,1,Urgency
+Senior IPS officer abhi video call join karenge,1,False Authority
+Kisi ko is investigation ke baare mein mat batana,1,Isolation
+Aapka PAN card fake companies ke transactions mein use hua hai,1,Fear Induction
+Video call se bahar mat jaiye jab tak verification complete na ho,1,Surveillance
+Camera on rakhiye hum verification record kar rahe hain,1,Surveillance
+Aap innocent hue toh verification ke baad pura paisa refund ho jayega,1,Money Transfer
+Main Delhi Police Cyber Crime Branch se bol raha hoon,1,False Authority
+Aapke naam par illegal SIM cards issue hue hain,1,Fear Induction
+Aapke bank account ko freeze karne ka order aa chuka hai,1,Threat
+Turant UPI app open karke diye gaye account mein amount bhejiye,1,Money Transfer
+Aap call disconnect karenge toh non-cooperation ka case banega,1,Threat
+Aapke passport ko blacklist kiya ja sakta hai,1,Threat
+Government audit ke liye account verification zaroori hai,1,False Authority
+Hum aapki live location monitor kar rahe hain,1,Surveillance
+Sir aapka SBI debit card dispatch ho gaya hai,0,Legitimate
+Kal branch visit karke KYC update kar lijiye,0,Legitimate Advisory
+Aapka IRCTC ticket successfully confirm ho gaya hai,0,Legitimate
+Cyber Crime portal par complaint successfully register ho gayi hai,0,Legitimate
+Bank kabhi bhi verification ke liye paisa transfer karne ko nahi bolta,0,Fraud Awareness
+Aapka Aadhaar card ek bade money laundering case mein involve hua hai aur aapko abhi ghar pe rehna hoga,1,Fear Induction
+Main CBI headquarters se bol raha hoon aapke upar serious charges hain,1,False Authority
+Aapka mobile number illegal activities mein use ho raha hai TRAI ne notice bheja hai,1,Fear Induction
+Abhi turant 50000 rupaye transfer karo warna aapko arrest kar liya jayega,1,Threat
+Aap kisi ko mat batao is matter ke baare mein yeh confidential investigation hai,1,Isolation
+Aapke bank account se suspicious transactions detect hui hain ED ne freeze karne ka order diya hai,1,Fear Induction
+Yeh ek court order hai aapko agle 2 ghante mein compliance karni hogi,1,Urgency
+Aapka beta ek drug case mein pakda gaya hai usko chhodwane ke liye paisa bhejo,1,Threat
+Hum aapko video call pe rakhenge jab tak investigation complete nahi hoti,1,Surveillance
+Aapka PAN card fraudulent transactions mein use hua hai Income Tax department ne case darj kiya hai,1,Fear Induction
+Agar aapne abhi payment nahi ki toh aapka passport cancel ho jayega,1,Threat
+Main Delhi High Court se bol raha hoon aapke khilaf warrant issue hua hai,1,False Authority
+Aapke ghar pe abhi police aane wali hai aap bahar mat jaiye,1,Surveillance
+Yeh call record ho rahi hai aur aapka jawab court mein use hoga,1,Fear Induction
+Aapko ek government verified account mein paisa transfer karna hoga bail ke liye,1,Money Transfer
+Customs department ne aapka parcel pakda hai usme drugs mile hain,1,False Authority
+Aapke naam pe 3 SIM cards illegal kaam ke liye register hain,1,Fear Induction
+Agar aap cooperate nahi karenge toh aapke pura family ko involve karna padega,1,Threat
+Aapka Aadhaar se linked account mein kala dhan mila hai,1,Fear Induction
+Hum aapke ghar ke bahar officer bhej rahe hain abhi baat karte raho,1,Surveillance
+Yeh ek time sensitive matter hai agar 1 ghante mein paisa nahi aaya toh arrest warrant execute hoga,1,Urgency
+Aapke khilaf cybercrime branch mein complaint darj hai,1,Fear Induction
+Main Supreme Court ka officer hoon aapko immediately respond karna hoga,1,False Authority
+Aapka bank account next 24 hours mein band ho jayega compliance ke liye paisa bhejo,1,Urgency
+Kisi ko mat batao warna case aur serious ho jayega,1,Isolation
+Aapke documents forgery case mein verify ho rahe hain verification ke liye paisa transfer karo,1,Money Transfer
+Ek government escrow account hai usme paisa transfer karo investigation ke baad wapas milega,1,Money Transfer
+Aap phone mat kato hum monitor kar rahe hain,1,Surveillance
+Aapka Aadhaar number ek terrorist ke account se link hua hai,1,Fear Induction
+Turant is UPI ID pe paisa bhejo warna non-cooperation ka case banta hai,1,Money Transfer
+Aapke office ke records mein irregularities hain Income Tax raid hone wali hai,1,Fear Induction
+Yeh ek secret government operation hai aap apne ghar mein akele raho,1,Isolation
+Main Narcotics Control Bureau se hoon aapka naam drug network mein aaya hai,1,False Authority
+Aapko ek baar mein poora amount transfer karna hoga installments allowed nahi hain,1,Urgency
+Aapka social media account illegal content share karne ke liye report hua hai,1,Fear Induction
+Hum aapki location track kar rahe hain aap kahin mat jaiye,1,Surveillance
+Agar aapne kisi ko bataya toh aapke against tampering with evidence ka case lagega,1,Isolation
+Yeh last warning hai agle 30 minutes mein respond karo,1,Urgency
+Aapke account mein jo paisa hai woh black money declare hua hai usse clear karne ke liye fee bharo,1,Money Transfer
+Aapke SBI account mein ek suspicious transaction detect hui hai kya aapne 15000 rupaye transfer kiye,0,Legitimate
+Yeh HDFC Bank ki taraf se automated call hai aapka credit card bill due hai please pay karo,0,Legitimate
+Aapka Jio number 30 din mein expire ho jayega recharge karo seva jaari rakhne ke liye,0,Legitimate Advisory
+Aapka Amazon order dispatch ho gaya hai delivery kal tak hogi,0,Legitimate
+Yeh aapke doctor ke clinic se reminder hai kal subah 10 baje appointment hai,0,Legitimate Advisory
+Aapka EPF account update ho gaya hai UAN portal pe login karke dekh sakte hain,0,Legitimate
+Aapki LIC policy ka premium due date 25 tarikh hai samay pe bharo lapse se bachne ke liye,0,Legitimate Advisory
+Aapka ration card update ke liye nazdiki CSC centre pe jaiye documents saath leke jaiye,0,Legitimate Advisory
+Yeh IRCTC ki taraf se hai aapki train 2 ghante late chal rahi hai,0,Legitimate
+Aapke Paytm wallet mein cashback credit hua hai app khol ke dekh sakte hain,0,Legitimate
+Main Mumbai Cyber Police se bol raha hoon aapke naam par fake account khola gaya hai,1,False Authority
+Aapka courier airport customs mein drugs ke saath pakda gaya hai,1,Fear Induction
+Verification complete hone tak video call se bahar mat jaiye,1,Surveillance
+Apna camera on rakhiye investigation record ho rahi hai,1,Surveillance
+Aapka PAN card hawala transaction mein use hua hai,1,Fear Induction
+Hum RBI verification team se bol rahe hain,1,False Authority
+Aapka passport blacklist hone wala hai agar cooperate nahi kiya,1,Threat
+Screen share on kijiye verification shuru karni hai,1,Financial Access
+Net banking login kijiye aur balance verify kijiye,1,Financial Access
+Government audit account mein amount transfer karna mandatory hai,1,Money Transfer
+Verification ke baad pura amount refund kar diya jayega,1,Money Transfer
+Call disconnect karna investigation se bhaagna maana jayega,1,Threat
+Aapka naam PMLA investigation mein aaya hai,1,Fear Induction
+Senior IPS officer abhi conference call join karenge,1,False Authority
+Apni current location share mat kijiye sirf line pe rahiye,1,Isolation
+Aapke khilaaf non bailable warrant process ho raha hai,1,Threat
+Aapka SIM card financial fraud mein use hua hai,1,Fear Induction
+Hum aapke ghar verification team bhej rahe hain,1,Surveillance
+Kisi bhi relative ko is call ke baare mein mat batana,1,Isolation
+Aapka account RBI monitoring ke under hai,1,False Authority
+Aapka KYC documents forged paye gaye hain,1,Fear Induction
+UPI app open karke verification payment bhejiye,1,Money Transfer
+Aapka bank account temporary freeze kiya ja raha hai,1,Threat
+Government verification ke liye OTP mat batayiye sirf instructions follow kijiye,1,Financial Access
+Aapke naam pe shell company register hui hai,1,Fear Induction
+Main Cyber Crime Investigation Officer bol raha hoon,1,False Authority
+Camera band mat kijiye hum observation mein hain,1,Surveillance
+Aapke documents national security investigation mein verify ho rahe hain,1,Fear Induction
+Aap innocent hue toh paisa 24 ghante mein wapas mil jayega,1,Money Transfer
+Abhi turant compliance complete kijiye warna legal action hoga,1,Urgency
+Aapke account se crypto transactions detect hui hain,1,Fear Induction
+Hum live verification kar rahe hain phone speaker pe rakhiye,1,Surveillance
+Aapke Aadhaar se multiple bank accounts linked mile hain,1,Fear Induction
+Verification fee ek hi transaction mein bhejni hogi,1,Money Transfer
+Court monitoring team is call ko dekh rahi hai,1,False Authority
+Aap ghar se bahar mat nikliye jab tak clearance na mile,1,Isolation
+Aapka mobile IMEI cyber fraud mein use hua hai,1,Fear Induction
+Agar call cut hui toh FIR final submit ho jayegi,1,Threat
+Aapke documents forensic verification mein hain,1,Fear Induction
+Verification ke liye debit card details ready rakhiye,1,Financial Access
+Aapka electricity bill successfully pay ho gaya hai,0,Legitimate
+Kal gas cylinder delivery expected hai,0,Legitimate
+Aapka Aadhaar update request receive ho gaya hai,0,Legitimate
+Bank branch Sunday ko band rahegi,0,Legitimate Advisory
+UPI payment successful raha,0,Legitimate
+Aapka FASTag recharge successful hua hai,0,Legitimate
+Police verification appointment kal subah hai,0,Legitimate Advisory
+Aapki income tax return successfully file ho gayi hai,0,Legitimate
+Courier delivery OTP sirf delivery ke time batayein,0,Fraud Awareness
+Koi bhi agency verification ke liye paisa transfer nahi mangti,0,Fraud Awareness
+Congratulations aapne Mahindra XUV700 jeeti hai claim karne ke liye processing fee bhariye,1,Prize Scam
+Aap lucky winner bane hain ek nayi Scooty jeeti hai registration charge bhejiye,1,Prize Scam
+KBC lucky draw mein aapka number nikla hai prize release ke liye GST jama kijiye,1,Prize Scam
+Aapne 25 lakh ki lottery jeeti hai amount release karne ke liye verification fee dijiye,1,Lottery Scam
+Aapko iPhone 16 Pro gift mila hai delivery charge pay kijiye,1,Prize Scam
+Aapki car prize approve ho gayi hai file processing ke liye 2999 rupaye bhejiye,1,Prize Scam
+Lucky customer hone ke karan aapko Bullet bike mili hai token amount jama kijiye,1,Prize Scam
+Aapka naam Reliance lucky draw mein select hua hai claim fee bharni hogi,1,Lottery Scam
+Sir aap 50 lakh cash reward jeet chuke hain tax payment karke reward lijiye,1,Lottery Scam
+Prize collect karne ke liye pehle insurance amount transfer karna hoga,1,Money Transfer
+Aapka electricity connection 30 minute mein disconnect ho jayega turant payment kijiye,1,Threat
+Bijli bill pending hai abhi payment nahi ki toh connection kat jayega,1,Threat
+Electricity department se bol rahe hain payment abhi verify kariye,1,False Authority
+Aapka gas subsidy verify karne ke liye OTP batayiye,1,Financial Access
+Aapka bank account KYC expire ho gaya hai link par click karke update kariye,1,Financial Access
+Main SBI verification team se bol raha hoon debit card block hone wala hai,1,False Authority
+Aapka ATM card suspend hone wala hai verification ke liye OTP batayein,1,Financial Access
+Aap loan ke liye eligible hain processing fee jama karte hi amount release ho jayega,1,Loan Scam
+Instant personal loan approve ho gaya hai file charge pay kijiye,1,Loan Scam
+Sir aapka credit score bahut achha hai loan activate karne ke liye 1999 rupaye bhejiye,1,Loan Scam
+OLX buyer bol raha hoon payment receive karne ke liye QR code scan kijiye,1,Financial Access
+Main Army officer hoon OLX se bike kharid raha hoon pehle token payment bhejiye,1,OLX Scam
+QR code scan karte hi aapke account mein payment aa jayegi,1,Financial Access
+Refund receive karne ke liye AnyDesk install kijiye,1,Financial Access
+Google Pay refund activate karne ke liye screen share kijiye,1,Financial Access
+PhonePe cashback lene ke liye UPI PIN enter kijiye,1,Financial Access
+Aapka insurance maturity amount release karne ke liye service tax jama kijiye,1,Insurance Scam
+LIC bonus claim karne ke liye processing charge dijiye,1,Insurance Scam
+Aapka parcel customs mein hold hai clearance fee jama kijiye,1,Money Transfer
+International parcel release karne ke liye customs duty bharni hogi,1,Money Transfer
+Courier company se bol rahe hain delivery confirm karne ke liye payment kijiye,1,Money Transfer
+Aapke account mein galti se paise transfer ho gaye refund ke liye app open kijiye,1,Refund Scam
+Hum refund process kar rahe hain screen share on kijiye,1,Financial Access
+Aapko scholarship approve hui hai registration fee jama kijiye,1,Scholarship Scam
+Government subsidy activate karne ke liye application charge dijiye,1,Government Benefit Scam
+PM Yojana ka benefit lene ke liye verification amount bhejiye,1,Government Benefit Scam
+Aapka PAN update nahi hua account block ho jayega link par click kijiye,1,Financial Access
+Income tax refund receive karne ke liye bank details verify kariye,1,Refund Scam
+Income tax refund release karne ke liye processing fee dijiye,1,Refund Scam
+Aap WhatsApp reward program ke winner bane hain claim amount jama kijiye,1,Prize Scam
+Facebook anniversary lucky draw mein aapki car confirm hui hai verification fee bhejiye,1,Lottery Scam
+Instagram giveaway jeet gaye delivery charge pay kijiye,1,Prize Scam
+Sir aapka Flipkart lucky winner coupon activate ho gaya hai service fee dijiye,1,Prize Scam
+Aap Amazon mega sale lucky winner bane hain token amount bhejiye,1,Prize Scam
+Aapka FASTag KYC update karna zaroori hai OTP share mat kijiye,0,Fraud Awareness
+Bank kabhi bhi UPI PIN nahi poochta,0,Fraud Awareness
+Lottery jeetne par pehle paisa maangna fraud ki nishani hai,0,Fraud Awareness
+Electricity department payment ke liye personal number se call nahi karta,0,Fraud Awareness
+Kisi bhi QR code ko payment receive karne ke liye scan mat kijiye,0,Fraud Awareness
+Official agencies kabhi bhi reward claim karne ke liye processing fee nahi maangti,0,Fraud Awareness
