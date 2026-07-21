@@ -36,8 +36,10 @@ def format_result(result: dict) -> str:
     else:
         message = "🚨 SCAM DETECTED\n\n"
 
+    if prediction != "LEGITIMATE":
+      message += f"🎯 Attack Type: {attack_type}\n"
+      
     message += (
-        f"🎯 Attack Type: {attack_type}\n"
         f"⚠️ Risk Level: {risk_level}\n"
         f"📊 Confidence: {confidence}%\n\n"
     )

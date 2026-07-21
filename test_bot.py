@@ -2,6 +2,16 @@ import requests
 
 response = requests.post("http://127.0.0.1:5000/analyse-call", json={
     "phone": "9627020081",
-    "transcript": "Hello. Hello. Namaste. Namaste. Namaste. Namaste. Yes Sir. So is your bank account in our bank? Yes. Yes Sir. So I checked the routine. I saw that your account is not KVIC. Oh. Yes. And if you don't KVIC, then you will be in your account for 5-6 months. And then you will get the money. Yes Sir. So what can I do here? Sir, you just tell us your name and address information. So that we can cross check. I am Arun and I am in the same year. Okay Sir. Is there any ATM card? Yes Sir. Yes Sir. So you are number of ATM card. You just tell us the CV. So we can confirm your card. Yes Sir. My CV is 371. Okay Sir. Thank you Sir. I will keep your account for your KVIC. I will keep it here. You don't need to have a bank. You will have a cotipi. You can tell me the cotipi. So your entire process will be 4th and finish will be 10-15 months. Yes Sir. Yes Sir. Yes Sir. You have a cotipi. My cotipi is 988. 988. Okay. Thank you Sir. Your KVIC will be there. And whatever message you have, your mobile will be there. Okay. Okay. Thank you Sir.Hello. Hello. Namaste. Namaste. Namaste. Namaste. Yes Sir. So is your bank account in our bank? Yes. Yes Sir. So I checked the routine. I saw that your account is not KVIC. Oh. Yes. And if you don't KVIC, then you will be in your account for 5-6 months. And then you will get the money. Yes Sir. So what can I do here? Sir, you just tell us your name and address information. So that we can cross check. I am Arun and I am in the same year. Okay Sir. Is there any ATM card? Yes Sir. Yes Sir. So you are number of ATM card. You just tell us the CV. So we can confirm your card. Yes Sir. My CV is 371. Okay Sir. Thank you Sir. I will keep your account for your KVIC. I will keep it here. You don't need to have a bank. You will have a cotipi. You can tell me the cotipi. So your entire process will be 4th and finish will be 10-15 months. Yes Sir. Yes Sir. Yes Sir. You have a cotipi. My cotipi is 988. 988. Okay. Thank you Sir. Your KVIC will be there. And whatever message you have, your mobile will be there. Okay. Okay. Thank you Sir."
+    "transcript": """Hello sir good morning this is Priya calling from HDFC Bank customer care. Sir I am calling to inform you that your credit card payment of 8500 rupees
+is due on 25th July. Sir please ensure you make the payment on time to avoid
+any late payment charges. You can pay through the HDFC mobile banking app
+net banking or by visiting your nearest HDFC Bank branch. Sir I would also
+like to inform you that we have a new zero interest EMI offer available on
+your credit card for purchases above 5000 rupees at select merchants. Would
+you like to know more about this offer sir? Sir please note that HDFC Bank
+will never ask for your OTP PIN or CVV number over the phone. If anyone
+calls you asking for these details please do not share them and report
+immediately to our fraud helpline. Is there anything else I can help you
+with today sir? Thank you for banking with HDFC Bank sir have a good day."""
 })
 print(response.json())

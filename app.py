@@ -35,8 +35,10 @@ def format_result(result: dict) -> str:
     else:
         message = "🚨 SCAM DETECTED\n\n"
 
+    if prediction != "LEGITIMATE":
+      message += f"🎯 Attack Type: {attack_type}\n"
+
     message += (
-        f"🎯 Attack Type: {attack_type}\n"
         f"⚠️ Risk Level: {risk_level}\n"
         f"📊 Confidence: {confidence}%\n\n"
     )
@@ -77,7 +79,7 @@ Our detection system returned:
 Return this exact JSON structure:
 {{
   "risk_level": "{risk_level}",
-  "attack_type": "short label like Digital Arrest Scam or KYC Fraud or Fake Bank Call",
+  "attack_type": "None if LEGITIMATE, otherwise short label like Digital Arrest Scam or KYC Fraud or Fake Bank Call",
   "red_flags": ["specific red flag 1", "specific red flag 2", "specific red flag 3"],
   "explanation": "2-3 sentence plain English explanation a 60-year-old can understand. If SCAM start with Warning: or Caution:. If LEGITIMATE start with This appears to be legitimate.",
   "safe_action": "1-2 specific action steps. Always include call 1930 or visit cybercrime.gov.in if SCAM."
